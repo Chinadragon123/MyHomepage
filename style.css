@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+}
+
+.head_images {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;  
+    border: 3px solid #ccc; /* 添加浅灰色边框 */
+}
+
+.name {
+    color: gray;
+    font-family: '华文细黑';
+}
+
+.btn {  
+    border: none;
+    display: inline-block;  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    color: #FFF;  
+    background-color: #00C8D7;  
+    border-radius: 6px;  
+    cursor: pointer;  
+    text-align: center;  
+    text-decoration: none;  
+    transition: background-color 0.3s ease;  
+}  
+  
+.btn:hover {  
+    background-color: #00FFFF;  
+}  
+  
+.btn:active {  
+    background-color: #00B0E0;  
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: #00C8D7;
+}
+
+.btn2 {  
+    border: none;
+    display: inline-block;  
+    padding: 6px 16px;  
+    font-size: 16px;  
+    color: #FFF;  
+    background-color: #8E44AD;  
+    border-radius: 6px;  
+    cursor: pointer;  
+    text-align: center;  
+    text-decoration: none;  
+    transition: background-color 0.3s ease;  
+}  
+  
+.btn2:hover {  
+    background-color: #9B59B6;  
+}  
+  
+.btn2:active {  
+    background-color: purple;  
+}
+
+.title {
+    color: #00B0E0;
+    font-family: "华文细黑";
+    font-weight: bold;
+}

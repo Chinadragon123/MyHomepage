@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+}
+
+.head_images {
+    text-align: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;  
+    border: 3px solid #ccc; /* 添加浅灰色边框 */
+}
+
+.name {
+    color: gray;
+    font-family: '华文细黑';
+    text-align: center;
+}
+
+.btn {    
+    text-align: center;
+    border: none;
+    display: inline-block;  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    color: #FFF;  
+    background-color: #00C8D7;  
+    border-radius: 6px;  
+    cursor: pointer;  
+    text-decoration: none;  
+    transition: background-color 0.3s ease;  
+}  
+  
+.btn:hover {  
+    background-color: #00FFFF;  
+}  
+  
+.btn:active {  
+    background-color: #00B0E0;  
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: #00C8D7;
+}
+
+.btn2 {
+    height: 140px;
+    border: none;
+    display: inline-block;  
+    padding: 6px 16px;  
+    font-size: 16px;  
+    color: #FFF;  
+    background-color: #FFB3A7;  
+    border-radius: 6px;  
+    cursor: pointer;  
+    text-decoration: none;  
+    margin: 10px;
+    transition: background-color 0.3s ease;  
+}  
+  
+.btn2:hover {  
+    background-color: #F00056;  
+}  
+  
+.btn2:active {  
+    background-color: #FF2121;  
+}
+
+.title {
+    text-align: center;
+    color: #00B0E0;
+    font-family: "华文细黑";
+    font-weight: bold;
+}
+
+.icon {
+    width: 100px;
+}
+
+p {
+    text-align: center;
+    color: gray;
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
